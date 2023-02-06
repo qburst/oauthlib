@@ -21,8 +21,9 @@ taken to restrict non authenticated clients access to resources appropriately.
   access to your users resources to a malicious third party which has
   stolen tokens (but not authentication secrets) from one of your clients.
 
-    **(Provider)** Offer 'oauth2/grants/authcode <https://oauthlib.readthedocs.io/en/latest/oauth2/grants/authcode.html>' _. Impact can be limited by not
+    **(Provider)** Offer '_oauth2/grants/authcode_' . Impact can be limited by not
     providing refresh tokens.
+.. _oauth2/grants/authcode: https://pip.pypa.io
     Default in :doc:`WebApplicationServer <oauth2/preconfigured_servers>`.
 
     **(Client)** Use :doc:`Web Application Client <oauth2/clients/webapplicationclient>`.
