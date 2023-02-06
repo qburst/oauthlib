@@ -21,7 +21,7 @@ taken to restrict non authenticated clients access to resources appropriately.
   access to your users resources to a malicious third party which has
   stolen tokens (but not authentication secrets) from one of your clients.
 
-    **(Provider)** Offer :doc:`oauth2/grants/authcode <https://oauthlib.readthedocs.io/en/latest/oauth2/grants/authcode.html>`. Impact can be limited by not
+    **(Provider)** Offer :doc:`oauth2/grants/authcode <https://oauthlib.readthedocs.io/en/latest/oauth2/grants/authcode.html> _`. Impact can be limited by not
     providing refresh tokens.
     Default in :doc:`WebApplicationServer <oauth2/preconfigured_servers>`.
 
