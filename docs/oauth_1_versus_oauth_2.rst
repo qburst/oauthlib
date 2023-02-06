@@ -23,7 +23,7 @@ taken to restrict non authenticated clients access to resources appropriately.
 
     **(Provider)** Offer 'oauth2/grants/authcode' . Impact can be limited by not
     providing refresh tokens.
-.. oauth2/grants/authcode: https://pip.pypa.io
+.. _oauth2/grants/authcode: https://pip.pypa.io
     Default in :doc:`WebApplicationServer <oauth2/preconfigured_servers>`.
 
     **(Client)** Use :doc:`Web Application Client <oauth2/clients/webapplicationclient>`.
