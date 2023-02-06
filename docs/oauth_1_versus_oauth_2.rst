@@ -23,7 +23,7 @@ taken to restrict non authenticated clients access to resources appropriately.
 
     **(Provider)** Offer `pip`_ . Impact can be limited by not
     providing refresh tokens.
-.. _pip: https://pip.pypa.io
+.. _pip: http://docs.python-guide.org/en/latest/starting/installation/
     Default in :doc:`WebApplicationServer <oauth2/preconfigured_servers>`.
 
     **(Client)** Use :doc:`Web Application Client <oauth2/clients/webapplicationclient>`.
